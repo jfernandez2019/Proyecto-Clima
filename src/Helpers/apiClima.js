@@ -1,6 +1,6 @@
 export const fetchClimaData = async (ciudad, setClimaData, setError) => {
     const urlBase = 'https://api.openweathermap.org/data/2.5/weather';
-    const api_key = 'afed406f60564480d3d7101ac989f6c7';
+    const api_key = 'API_TOKEN';
 
     try {
         const response = await fetch(`${urlBase}?q=${ciudad}&appid=${api_key}`);
